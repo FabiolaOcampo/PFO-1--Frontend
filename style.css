@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+.sidebar {
+  width: 30%;
+  background: #0c2d48;
+  color: #fff;
+  padding: 20px;
+}
+.foto{
+    width: 50%;   
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  border: 2.5px solid #ddd;
+  
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.sidebar li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+
+.main {
+  width: 70%;
+  padding: 20px;
+
+}
+
+header{
+    background: #ece7f0;
+    text-align: center;
+    padding: 10px ;
+
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  margin-top: 15px;  
+  margin-bottom: 10px; 
+}
+
+header h3 {
+  font-size: 18px;
+  color: #f4eaea;
+  margin-bottom: 20px;
+
+}
+
+section {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #eff1f3;
+}
+
+.job {
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+   color: #0c2d48;
+}
+.ocupacion{
+    color: #848588;
+}
+
+
+h4 {
+  font-size: 16px;
+  margin-bottom: 1px;
+  color: #000000;
+
+}
+
+.summary p {
+  line-height: 1.6;  
+  margin-bottom: 10px; 
+}
+
+.summary h3,
+.experience h3 {
+  border-bottom: 2px solid #0c2d48; 
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.job .date {
+  font-size: 14px;
+  color: #6f4da1;
+  text-align: right;
+  display: block;
+  margin-bottom: 10px;
+}
+.job span {
+  color: #555;
+  font-weight: normal;
+}
+
+
+.job ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.job li {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.nombre{
+     border: none;
+  border-top: 3px solid #181717;
+  margin: 20px auto;
+  width: 25%;
+
+}
+
+.skills ul,
+.soft-skills ul {
+  list-style: disc; 
+  margin-left: 20px; 
+}
